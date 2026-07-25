@@ -8,14 +8,24 @@
 
 <svelte:head>
   {#if service}
-    <title>{service.title} — Pradeep Kumar Gupta</title>
+    <title>{service.title} Consultant | Pradeep Kumar Gupta</title>
     <meta name="description" content={service.desc} />
     <link rel="canonical" href="https://www.pradeepkumargupta.in/work/{service.slug}" />
-    <meta property="og:title" content="{service.title} — Pradeep Kumar Gupta" />
+    <meta property="og:title" content="{service.title} Consultant | Pradeep Kumar Gupta" />
     <meta property="og:description" content={service.desc} />
     <meta property="og:url" content="https://www.pradeepkumargupta.in/work/{service.slug}" />
-    <meta name="twitter:title" content="{service.title} — Pradeep Kumar Gupta" />
+    <meta name="twitter:title" content="{service.title} Consultant | Pradeep Kumar Gupta" />
     <meta name="twitter:description" content={service.desc} />
+    {@html `<script type="application/ld+json">${JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": service.title,
+      "description": service.desc,
+      "url": `https://www.pradeepkumargupta.in/work/${service.slug}`,
+      "provider": {"@type": "Person", "name": "Pradeep Kumar Gupta", "url": "https://www.pradeepkumargupta.in"},
+      "areaServed": ["India", "International"],
+      "audience": {"@type": "BusinessAudience", "audienceType": "Boards, MSMEs and manufacturing organisations"}
+    })}</script>`}
   {:else}
     <title>Service Not Found — Pradeep Kumar Gupta</title>
     <meta name="robots" content="noindex" />
@@ -63,8 +73,8 @@
     <section class="overview-section">
       <div class="container overview-grid">
         <div class="overview-text">
-          <span class="tag">Overview</span>
-          <h2 class="section-title">About this <em>service</em></h2>
+          <span class="tag">Capability</span>
+          <h2 class="section-title">Where experience <em>adds value</em></h2>
           <div class="divider"></div>
           {#each service.overview.split('\n\n') as para}
             <p>{para}</p>
@@ -73,7 +83,7 @@
 
         <aside class="sidebar">
           <div class="sidebar-card">
-            <h3>Industries Served</h3>
+            <h3>Relevant environments</h3>
             <ul>
               {#each service.industries as ind}
                 <li>
@@ -88,8 +98,8 @@
           </div>
 
           <div class="sidebar-cta">
-            <p>Ready to explore how this applies to your business?</p>
-            <a href="/contact" class="btn btn-primary" style="width:100%;justify-content:center">Get In Touch</a>
+            <p>Have a related role, board mandate or improvement challenge?</p>
+            <a href="/contact" class="btn btn-primary" style="width:100%;justify-content:center">Discuss the requirement</a>
             <a
               href="https://wa.me/917669697397?text=Hi%2C%20I%27m%20interested%20in%20{encodeURIComponent(service.title)}"
               target="_blank"
@@ -110,8 +120,8 @@
     <section class="benefits-section">
       <div class="container">
         <div class="section-head">
-          <span class="tag">Key Benefits</span>
-          <h2 class="section-title">What you <em>gain</em></h2>
+          <span class="tag">Potential Outcomes</span>
+          <h2 class="section-title">What the work is <em>designed to improve</em></h2>
           <div class="divider"></div>
         </div>
         <div class="benefits-grid">
@@ -131,8 +141,8 @@
     <section class="approach-section">
       <div class="container">
         <div class="section-head">
-          <span class="tag">Methodology</span>
-          <h2 class="section-title">How we <em>work together</em></h2>
+          <span class="tag">Working Method</span>
+          <h2 class="section-title">From <em>baseline to control</em></h2>
           <div class="divider"></div>
         </div>
 

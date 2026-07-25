@@ -119,10 +119,10 @@ section {
   gap: 1.5rem;
 }
 .why-card {
-  background: var(--navy);
+  background: #EAF2F7;
   border-radius: 6px;
   padding: 2rem 1.75rem;
-  color: #fff;
+  color: var(--navy);
   border-top: 3px solid var(--gold);
 }
 .why-icon { font-size: 2rem; display: block; margin-bottom: 1rem; }
@@ -130,8 +130,14 @@ section {
   font-family: var(--font-display);
   font-size: 1.15rem;
   font-weight: 400;
-  color: var(--gold-light);
+  color: var(--navy);
   margin-bottom: 0.6rem;
 }
-.why-card p { font-size: 0.84rem; color: rgba(255,255,255,0.6); line-height: 1.7; }
+.why-card p { font-size: 0.84rem; color: #344B5D; line-height: 1.7; }
+.why-card:nth-child(2) p { color: #38584F; }
+.why-card:nth-child(3) p { color: #5D4A31; }
+.why-card:nth-child(4) p { color: #454B66; }
+.why-card:nth-child(2) { background: #EDF3EF; }
+.why-card:nth-child(3) { background: #F4EFE5; }
+.why-card:nth-child(4) { background: #EEF0F6; }
 </style>

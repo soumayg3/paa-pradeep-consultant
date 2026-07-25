@@ -27,7 +27,7 @@
   <div class="container hero-content">
     <div class="eyebrow">
       <span class="line"></span>
-      <span class="eyebrow-text">Independent Director &amp; Business Consultant</span>
+      <span class="eyebrow-text">Board-ready leader · Pulp &amp; paper technologist · Quality consultant</span>
     </div>
 
     <h1>
@@ -36,17 +36,24 @@
     </h1>
 
     <p class="tagline">
-      Building resilient, sustainable organisations through expertise in Quality Management,
-      ESG, Corporate Governance, and Operational Excellence.
+      25+ years of plant-floor and leadership experience helping manufacturers improve quality,
+      productivity, safety and governance. Available for independent director mandates,
+      MSME consulting and international technical or quality leadership roles.
     </p>
 
     <div class="hero-actions">
-      <a href="/contact" class="btn btn-primary">Get In Touch</a>
-      <a href="/about" class="btn btn-outline-dark">Learn More</a>
+      <a href="/contact" class="btn btn-primary">Discuss an opportunity</a>
+      <a href="/about" class="btn btn-outline-dark">Review experience</a>
+    </div>
+
+    <div class="role-strip" aria-label="Current opportunity interests">
+      <span>Independent director mandates</span>
+      <span>MSME quality transformation</span>
+      <span>International technical leadership</span>
     </div>
 
     <div class="stats">
-      {#each [['25+','Years Experience'],['50+','Projects Completed']] as [num, label]}
+      {#each [['25+','Years Experience'],['23','Years in Paper Industry'],['IITR','Engineering Alumnus']] as [num, label]}
         <div class="stat">
           <span class="stat-num">{num}</span>
           <span class="stat-label">{label}</span>
@@ -55,10 +62,6 @@
     </div>
   </div>
 
-  <div class="scroll-hint" aria-hidden="true">
-    <span>Scroll</span>
-    <div class="scroll-line"></div>
-  </div>
 </section>
 
 <style>
@@ -254,6 +257,21 @@ h1 {
   padding-top: 2rem;
   border-top: 1px solid var(--border);
 }
+.role-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem;
+  margin: -1.5rem 0 2.2rem;
+}
+.role-strip span {
+  padding: .42rem .72rem;
+  border: 1px solid rgba(19,35,31,.18);
+  background: rgba(255,255,255,.5);
+  color: var(--navy);
+  font-size: .68rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
 .stat { display: flex; flex-direction: column; }
 .stat-num {
   font-family: var(--font-display);
@@ -270,34 +288,8 @@ h1 {
   margin-top: 0.3rem;
 }
 
-.scroll-hint {
-  position: absolute;
-  bottom: 2.5rem;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.5rem;
-  color: var(--muted);
-  font-size: 0.6rem;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  z-index: 2;
-}
-.scroll-line {
-  width: 1px;
-  height: 3rem;
-  background: linear-gradient(to bottom, var(--accent), transparent);
-  animation: scrollPulse 2s ease infinite;
-}
-
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(24px); }
   to   { opacity: 1; transform: translateY(0); }
-}
-@keyframes scrollPulse {
-  0%,100% { opacity: 0.4; transform: scaleY(0.8); }
-  50%      { opacity: 1;   transform: scaleY(1); }
 }
 </style>

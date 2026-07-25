@@ -3,14 +3,14 @@
 </script>
 
 <svelte:head>
-  <title>Work & Services — Pradeep Kumar Gupta</title>
-  <meta name="description" content="11 consulting service domains — Quality Improvement, ESG, Corporate Strategy, QMS, ISO Compliance, and more. 25+ years of hands-on industry experience." />
+  <title>Quality, TQM & Pulp and Paper Consulting | Pradeep Kumar Gupta</title>
+  <meta name="description" content="Consulting for MSMEs and manufacturers in TQM, Lean Six Sigma, quality systems, ISO readiness, cost reduction, safety and pulp and paper operations." />
   <link rel="canonical" href="https://www.pradeepkumargupta.in/work" />
-  <meta property="og:title" content="Work & Services — Pradeep Kumar Gupta" />
-  <meta property="og:description" content="11 consulting service domains — Quality Improvement, ESG, Corporate Strategy, QMS, ISO Compliance, and more." />
+  <meta property="og:title" content="Quality, TQM & Pulp and Paper Consulting" />
+  <meta property="og:description" content="Practical improvement support for MSMEs and manufacturers, grounded in 25+ years of operating and quality experience." />
   <meta property="og:url" content="https://www.pradeepkumargupta.in/work" />
-  <meta name="twitter:title" content="Work & Services — Pradeep Kumar Gupta" />
-  <meta name="twitter:description" content="11 consulting service domains — Quality Improvement, ESG, Corporate Strategy, QMS, ISO Compliance, and more." />
+  <meta name="twitter:title" content="Quality, TQM & Pulp and Paper Consulting" />
+  <meta name="twitter:description" content="Practical improvement support for MSMEs and manufacturers." />
 </svelte:head>
 
 <main>
@@ -35,15 +35,15 @@
           <path d="M80 0 L80 24 L68 24" stroke="rgba(20,97,164,0.2)" stroke-width="1"/>
         </svg>
       </div>
-      <span class="tag">Services</span>
-      <h1 class="section-title">Work & <em>Expertise</em></h1>
+      <span class="tag">Professional Capabilities</span>
+      <h1 class="section-title">Board, quality & <em>industrial expertise</em></h1>
       <p class="hero-sub">
-        Eleven service domains grounded in 25+ years of operational and consulting experience —
-        delivered as a genuine partnership with your team.
+        Practical support for boards and manufacturers, with core depth in TQM, quality systems,
+        operational improvement and pulp and paper technology.
       </p>
       <div class="hero-count" aria-hidden="true">
         <span class="count-num">11</span>
-        <span class="count-label">Service Domains</span>
+        <span class="count-label">Capability Areas</span>
       </div>
     </div>
   </section>
@@ -58,7 +58,7 @@
             <line x1="0" y1="0" x2="100%" y2="0" stroke="var(--border)" stroke-width="1"/>
           </svg>
         </div>
-        <span class="grid-count">{services.length} services</span>
+        <span class="grid-count">{services.length} capability areas</span>
       </div>
 
       <div class="grid">
@@ -86,16 +86,16 @@
   <section class="why-section">
     <div class="container">
       <div class="section-head">
-        <span class="tag">Why Choose Me</span>
-        <h2 class="section-title">Delivering <em>value</em> through expertise</h2>
+        <span class="tag">Working Value</span>
+        <h2 class="section-title">Senior judgement with <em>practical follow-through</em></h2>
         <div class="divider"></div>
       </div>
       <div class="why-grid">
         {#each [
-          { icon: '🏆', title: 'Proven Expertise',        desc: 'Decades of industry experience with a track record of successful, measurable implementations.' },
-          { icon: '💡', title: 'Practical Solutions',     desc: 'Recommendations built on operational depth — not just frameworks and slides.' },
-          { icon: '👥', title: 'Client-Centric',          desc: 'Dedicated partnership focused on understanding and achieving your specific business objectives.' },
-          { icon: '📊', title: 'Measurable Results',      desc: 'Data-driven strategies reported in business KPIs that matter to leadership.' },
+          { icon: '🏆', title: 'Operating Experience', desc: 'A career shaped by mills, laboratories, production shifts, management systems and sectional responsibility.' },
+          { icon: '💡', title: 'Structured Diagnosis', desc: 'Recommendations follow evidence, root-cause analysis and the organisation’s actual operating constraints.' },
+          { icon: '👥', title: 'Capability Transfer', desc: 'Work with managers and frontline teams so improvements remain owned inside the organisation.' },
+          { icon: '📊', title: 'Governance Discipline', desc: 'Clear baselines, owners, measures and review cycles connect action with leadership oversight.' },
         ] as w}
           <div class="why-card">
             <span class="why-icon">{w.icon}</span>
@@ -254,10 +254,10 @@ main { padding-top: 0; }
   gap: 1.5rem;
 }
 .why-card {
-  background: var(--navy);
+  background: #EAF2F7;
   border-radius: 6px;
   padding: 2rem 1.75rem;
-  color: #fff;
+  color: var(--navy);
   border-top: 3px solid var(--accent);
   position: relative;
   overflow: hidden;
@@ -276,10 +276,16 @@ main { padding-top: 0; }
   font-family: var(--font-display);
   font-size: 1.15rem;
   font-weight: 400;
-  color: var(--accent-light);
+  color: var(--navy);
   margin-bottom: 0.6rem;
 }
-.why-card p { font-size: 0.84rem; color: rgba(255,255,255,0.55); line-height: 1.7; }
+.why-card p { font-size: 0.84rem; color: #344B5D; line-height: 1.7; }
+.why-card:nth-child(2) p { color: #38584F; }
+.why-card:nth-child(3) p { color: #5D4A31; }
+.why-card:nth-child(4) p { color: #454B66; }
+.why-card:nth-child(2) { background: #EDF3EF; }
+.why-card:nth-child(3) { background: #F4EFE5; }
+.why-card:nth-child(4) { background: #EEF0F6; }
 
 /* ── CTA ── */
 .cta-band {

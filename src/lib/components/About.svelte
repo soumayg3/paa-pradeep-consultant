@@ -3,8 +3,10 @@
     <div class="photo-col">
       <div class="photo-frame">
         <img
-          src="https://www.pradeepkumargupta.in/image.jpeg"
-          alt="Pradeep Kumar Gupta – Business Consultant"
+          src="/pradeep-kumar-gupta-full.webp"
+          alt="Pradeep Kumar Gupta, pulp and paper technologist and quality leader"
+          width="800"
+          height="1200"
           loading="lazy"
         />
         <div class="photo-accent"></div>
@@ -79,9 +81,7 @@ section {
 }
 .photo-frame img {
   width: 100%;
-  aspect-ratio: 4/5;
-  object-fit: cover;
-  object-position: top;
+  height: auto;
   border-radius: 6px;
   filter: grayscale(10%) contrast(1.05);
   transition: filter 0.4s;
@@ -104,15 +104,16 @@ section {
   display: flex;
   align-items: center;
   gap: 1rem;
-  background: var(--navy);
+  background: #2F6F8F;
   color: #fff;
   border-radius: var(--radius);
   padding: 0.85rem 1.2rem;
   border-left: 3px solid var(--gold);
 }
+.cred-card:nth-child(2) { background: #4F7C70; }
 .cred-icon { font-size: 1.25rem; flex-shrink: 0; }
-.cred-title { font-family: var(--font-display); font-size: 1rem; font-weight: 400; color: var(--gold-light); }
-.cred-sub   { font-size: 0.72rem; color: rgba(255,255,255,0.55); margin-top: 0.1rem; letter-spacing: 0.04em; }
+.cred-title { font-family: var(--font-display); font-size: 1rem; font-weight: 600; color: #FFFFFF; }
+.cred-sub   { font-size: 0.72rem; color: rgba(255,255,255,0.88); margin-top: 0.1rem; letter-spacing: 0.04em; }
 
 /* text */
 .text-col p { color: var(--muted); font-size: 0.97rem; line-height: 1.8; }

@@ -3,15 +3,15 @@
     { icon: '🎓', title: 'IIT Roorkee', sub: 'B.E. Wood Science & Pulp and Paper Technology' },
     { icon: '🏅', title: 'Lean Six Sigma', sub: 'Green Belt Certified' },
     { icon: '📜', title: 'IMS Internal Auditor', sub: 'Integrated Management Systems' },
-    { icon: '🏛️', title: 'Independent Director', sub: 'Indian Institute of Corporate Affairs' },
+    { icon: '🏛️', title: 'Board Readiness', sub: 'Independent director education / credential' },
   ];
 
   const timeline = [
-    { period: '1996–2008', org: 'Hindustan Paper Corporation Ltd', role: 'Asst / Shift Superintendent → Shift Superintendent', desc: 'Over 12 years across Nagaon and Hailakandi mills — pulp mill operations, quality control, central laboratory, planning & development, and OHSAS 18000 implementation.' },
-    { period: '2008–2010', org: 'Hindustan Newsprint Limited', role: 'Senior Shift Superintendent', desc: 'Managed shift operations in Pulp Mill at Kottayam, Kerala. Led HIRA documentation for Soda Recovery during OHSAS 18000 implementation.' },
+    { period: '1996–2008', org: 'Hindustan Paper Corporation Ltd', role: 'Asst / Shift Superintendent → Shift Superintendent', desc: 'Over 12 years across Nagaon and Hailakandi mills — pulp mill operations, quality control, central laboratory, planning & development, and OHSAS 18001 implementation.' },
+    { period: '2008–2010', org: 'Hindustan Newsprint Limited', role: 'Senior Shift Superintendent', desc: 'Managed shift operations in Pulp Mill at Kottayam, Kerala. Led HIRA documentation for Soda Recovery during OHSAS 18001 implementation.' },
     { period: '2010–2019', org: 'Hindustan Paper Corporation Ltd', role: 'Senior Shift Superintendent → Manager', desc: 'Returned to Hailakandi as Sectional Head. Drove continuous improvement in quality output, sustainable productivity, and operational efficiency.' },
-    { period: '2019–Present', org: 'Independent Consultant', role: 'Consultant & Director', desc: 'Facilitating competitiveness in the MSME sector. Director at Palanhaar Solutions (Railways & Transport). Project Management Consultant at Ganpathi Plastic & Engineering.' },
-    { period: '2026–Present', org: 'Indian Institute of Corporate Affairs', role: 'Independent Director', desc: 'Board-level governance work. Building resilient, sustainable corporates of global standards meeting Sustainable Development Goals.' },
+    { period: '2019–Present', org: 'Independent Practice', role: 'Consultant & Director', desc: 'Supporting MSME competitiveness and management improvement, with assignments in plastics, engineering, water systems, railways and transport.' },
+    { period: 'Current focus', org: 'Board & International Opportunities', role: 'Independent Director Candidate · Technical / Quality Leader', desc: 'Seeking board mandates and international roles where manufacturing, quality, safety and sustainability experience can strengthen oversight and execution.' },
   ];
 
   const pillars = [
@@ -23,14 +23,14 @@
 </script>
 
 <svelte:head>
-  <title>About — Pradeep Kumar Gupta</title>
-  <meta name="description" content="IIT Roorkee alumnus, Lean Six Sigma Green Belt, and Independent Director with 25+ years in quality, ESG, and corporate governance." />
+  <title>Career Profile | Pradeep Kumar Gupta — Pulp & Paper and Quality Leader</title>
+  <meta name="description" content="Career profile of Pradeep Kumar Gupta: IIT Roorkee pulp and paper technologist with 25+ years in mill operations, quality control, safety systems, TQM and MSME consulting." />
   <link rel="canonical" href="https://www.pradeepkumargupta.in/about" />
   <meta property="og:title" content="About — Pradeep Kumar Gupta" />
-  <meta property="og:description" content="IIT Roorkee alumnus, Lean Six Sigma Green Belt, and Independent Director with 25+ years in quality, ESG, and corporate governance." />
+  <meta property="og:description" content="IIT Roorkee pulp and paper technologist with 25+ years in mill operations, quality control, safety systems, TQM and MSME consulting." />
   <meta property="og:url" content="https://www.pradeepkumargupta.in/about" />
   <meta name="twitter:title" content="About — Pradeep Kumar Gupta" />
-  <meta name="twitter:description" content="IIT Roorkee alumnus, Lean Six Sigma Green Belt, and Independent Director with 25+ years in quality, ESG, and corporate governance." />
+  <meta name="twitter:description" content="25+ years in pulp and paper operations, quality, safety systems and MSME consulting." />
 </svelte:head>
 
 <main>
@@ -53,8 +53,8 @@
       <span class="tag">About Me</span>
       <h1 class="section-title">A career built on <em>expertise</em></h1>
       <p class="hero-sub">
-        25+ years in quality, sustainability, and governance — from the pulp mill floor
-        to the boardroom.
+        25+ years across mill operations, quality, safety and business improvement —
+        now available for board, consulting and international leadership mandates.
       </p>
     </div>
   </section>
@@ -68,8 +68,10 @@
           <div class="corner tl" aria-hidden="true"></div>
           <div class="corner br" aria-hidden="true"></div>
           <img
-            src="https://www.pradeepkumargupta.in/image.jpeg"
-            alt="Pradeep Kumar Gupta – Business Consultant"
+            src="/pradeep-kumar-gupta-full.webp"
+            alt="Pradeep Kumar Gupta, pulp and paper technologist and quality leader"
+            width="800"
+            height="1200"
             loading="lazy"
           />
         </div>
@@ -90,9 +92,9 @@
       <div class="text-col">
         <div class="divider"></div>
         <p>
-          With extensive experience in business consulting and strategic advisory, I help
-          organisations achieve operational excellence, implement sustainable practices, and
-          drive continuous improvement across all facets of their operations.
+          I am a pulp and paper technologist and quality professional whose career has been built
+          in operating environments where safety, consistency, cost and production continuity
+          must work together.
         </p>
         <p>
           My core expertise was forged over 23 years at Hindustan Paper Corporation Limited
@@ -100,11 +102,16 @@
           and safety systems across plants in Assam and Kerala.
         </p>
         <p>
-          Since 2019 I have served as an independent consultant and director, bringing that
-          operational depth to MSME sector competitiveness, plastics, water treatment, and
-          board-level governance. I am an alumnus of IIT Roorkee (B.E. Wood Science & Pulp
-          and Paper Technology) and hold certifications in Lean Six Sigma, IMS Internal
-          Auditing, Project Management, and Independent Directorship.
+          Since 2019 I have brought that operating discipline to MSMEs and assignments in
+          plastics, engineering, water treatment, railways and transport. My approach combines
+          TQM, Lean Six Sigma, structured problem solving and management-system thinking with
+          practical implementation alongside the client team.
+        </p>
+        <p>
+          I am an IIT Roorkee alumnus (B.E. Wood Science &amp; Pulp and Paper Technology), a
+          Lean Six Sigma Green Belt and an IMS internal auditor. I welcome independent director
+          and advisory mandates, project-based consulting, and suitable pulp-and-paper or quality
+          leadership roles outside India.
         </p>
 
         <div class="pillars">
@@ -116,9 +123,9 @@
           {/each}
         </div>
 
-        <div class="actions">
-          <a href="/contact" class="btn btn-primary">Work With Me</a>
-          <a href="/work" class="btn btn-outline">View Services</a>
+        <div class="actions" id="print-profile">
+          <a href="/contact" class="btn btn-primary">Discuss a role or mandate</a>
+          <button type="button" class="btn btn-outline" on:click={() => window.print()}>Print / Save as PDF</button>
         </div>
       </div>
     </div>
@@ -165,16 +172,16 @@
   <section class="why-section">
     <div class="container">
       <div class="section-head">
-        <span class="tag">Why Choose Me</span>
-        <h2 class="section-title">Delivering <em>value</em> through expertise</h2>
+        <span class="tag">Recruiter Assessment</span>
+        <h2 class="section-title">What distinguishes the <em>profile</em></h2>
         <div class="divider"></div>
       </div>
       <div class="why-grid">
         {#each [
-          { icon: '🏆', title: 'Proven Track Record', desc: 'Over 25 years of hands-on experience with a documented history of measurable improvements in quality, safety, and sustainability.' },
-          { icon: '💡', title: 'Operational Depth', desc: 'Recommendations grounded in real production-floor and boardroom experience — not just textbook frameworks.' },
+          { icon: '🏆', title: 'Career Evidence', desc: 'More than 25 years across operating companies and consulting, including 23 years in pulp and paper organisations.' },
+          { icon: '💡', title: 'Operational Depth', desc: 'Recommendations grounded in real production-floor leadership and governance discipline — not just textbook frameworks.' },
           { icon: '👥', title: 'Partnership Approach', desc: 'Work alongside your team to build internal capability, not dependency. Engagements are built to create lasting change.' },
-          { icon: '📊', title: 'Measurable Outcomes', desc: 'Every engagement defines clear KPIs upfront. Results are reported in business metrics that matter to leadership.' },
+          { icon: '📊', title: 'Measured Delivery', desc: 'Engagements begin with a baseline and agreed KPIs, then build ownership through reviews, training and standardisation.' },
         ] as w}
           <div class="why-card">
             <span class="why-icon">{w.icon}</span>
@@ -189,6 +196,7 @@
 
 <style>
 main { padding-top: 0; }
+.page-hero { padding-block: 6.5rem 3.25rem; }
 
 /* ── Hero — inherits light styles from app.css .page-hero ── */
 .blueprint-grid { position: absolute; inset: 0; width: 100%; height: 100%; }
@@ -205,17 +213,17 @@ main { padding-top: 0; }
 
 /* ── About Main ── */
 .about-main {
-  padding-block: var(--section-pad);
+  padding-block: clamp(2.5rem, 5vw, 4rem);
   background: var(--off-white);
 }
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: clamp(3rem, 6vw, 6rem);
+  grid-template-columns: minmax(250px, 0.78fr) minmax(0, 1.22fr);
+  gap: clamp(2rem, 4vw, 4rem);
   align-items: start;
 }
 
-.photo-col { display: flex; flex-direction: column; gap: 1.5rem; }
+.photo-col { display: flex; flex-direction: column; gap: 1rem; max-width: 360px; }
 .photo-frame {
   position: relative;
   border-radius: 6px;
@@ -232,9 +240,7 @@ main { padding-top: 0; }
 .corner.br { bottom: -6px; right: -6px; border-bottom: 2px solid var(--accent); border-right: 2px solid var(--accent); }
 .photo-frame img {
   width: 100%;
-  aspect-ratio: 4/5;
-  object-fit: cover;
-  object-position: top;
+  height: auto;
   border-radius: 6px;
   filter: grayscale(15%) contrast(1.05);
   transition: filter 0.4s;
@@ -242,35 +248,39 @@ main { padding-top: 0; }
 }
 .photo-frame:hover img { filter: none; }
 
-.credential-cards { display: flex; flex-direction: column; gap: 0.85rem; }
+.credential-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 0.55rem; }
 .cred-card {
   display: flex;
   align-items: center;
-  gap: 1rem;
-  background: var(--navy);
+  gap: 0.65rem;
+  background: #2F6F8F;
   color: #fff;
   border-radius: var(--radius);
-  padding: 0.85rem 1.2rem;
+  padding: 0.65rem 0.75rem;
   border-left: 3px solid var(--accent);
 }
-.cred-icon { font-size: 1.25rem; flex-shrink: 0; }
-.cred-title { font-family: var(--font-display); font-size: 1rem; font-weight: 400; color: var(--accent-light); }
-.cred-sub { font-size: 0.72rem; color: rgba(255,255,255,0.5); margin-top: 0.1rem; letter-spacing: 0.04em; }
+.cred-card:nth-child(2) { background: #4F7C70; }
+.cred-card:nth-child(3) { background: #6D7187; }
+.cred-card:nth-child(4) { background: #9A6A32; }
+.cred-icon { font-size: 1rem; flex-shrink: 0; }
+.cred-title { font-family: var(--font-display); font-size: 0.86rem; line-height: 1.2; font-weight: 600; color: #FFFFFF; }
+.cred-sub { font-size: 0.59rem; line-height: 1.35; color: rgba(255,255,255,0.9); margin-top: 0.08rem; letter-spacing: 0.02em; }
 
 .head-mark { margin-bottom: 0.75rem; }
-.text-col p { color: var(--muted); font-size: 0.97rem; line-height: 1.8; margin-top: 1rem; }
+.text-col p { color: var(--muted); font-size: 0.88rem; line-height: 1.65; margin-top: 0.75rem; }
+.text-col .divider { margin-block: 0 1rem; }
 
 .pillars {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0.65rem;
-  margin-top: 1.75rem;
+  gap: 0.45rem;
+  margin-top: 1.15rem;
 }
 .pillar {
   display: flex;
   align-items: center;
   gap: 0.6rem;
-  font-size: 0.82rem;
+  font-size: 0.74rem;
   font-weight: 500;
   color: var(--navy);
   letter-spacing: 0.02em;
@@ -281,7 +291,7 @@ main { padding-top: 0; }
   background: var(--accent);
   flex-shrink: 0;
 }
-.actions { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 2rem; }
+.actions { display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 1.25rem; }
 
 /* ── Timeline ── */
 .timeline-section {
@@ -357,10 +367,10 @@ main { padding-top: 0; }
   gap: 1.5rem;
 }
 .why-card {
-  background: var(--navy);
+  background: #EAF2F7;
   border-radius: 6px;
   padding: 2rem 1.75rem;
-  color: #fff;
+  color: var(--navy);
   border-top: 3px solid var(--accent);
   position: relative;
   overflow: hidden;
@@ -381,10 +391,16 @@ main { padding-top: 0; }
   font-family: var(--font-display);
   font-size: 1.15rem;
   font-weight: 400;
-  color: var(--accent-light);
+  color: var(--navy);
   margin-bottom: 0.6rem;
 }
-.why-card p { font-size: 0.84rem; color: rgba(255,255,255,0.55); line-height: 1.7; }
+.why-card p { font-size: 0.84rem; color: #344B5D; line-height: 1.7; }
+.why-card:nth-child(2) p { color: #38584F; }
+.why-card:nth-child(3) p { color: #5D4A31; }
+.why-card:nth-child(4) p { color: #454B66; }
+.why-card:nth-child(2) { background: #EDF3EF; }
+.why-card:nth-child(3) { background: #F4EFE5; }
+.why-card:nth-child(4) { background: #EEF0F6; }
 
 @media (max-width: 900px) {
   .grid { grid-template-columns: 1fr; }
@@ -393,6 +409,7 @@ main { padding-top: 0; }
   .tl-org { display: none; }
 }
 @media (max-width: 560px) {
+  .credential-cards { grid-template-columns: 1fr; }
   .tl-item { grid-template-columns: 1fr; }
   .tl-left { text-align: left; }
   .tl-connector { display: none; }

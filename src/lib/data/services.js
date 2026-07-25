@@ -4,13 +4,13 @@ export const services = [
     icon: '⚙️',
     title: 'Quality Improvement',
     tagline: 'Operational excellence through continuous improvement',
-    desc: 'Implement proven methodologies to enhance product quality, streamline processes, and achieve operational excellence through continuous improvement initiatives.',
-    overview: `Quality improvement is at the heart of sustainable business success. Through rigorous analysis and proven methodologies — Lean, Six Sigma, Kaizen — we identify inefficiencies and implement targeted improvements that deliver lasting results.\n\nWith over two decades of hands-on experience across manufacturing and service sectors, each engagement is tailored to the organisation's maturity level, culture, and strategic goals. Outcomes are always measured and reported in tangible business metrics.`,
+    desc: 'TQM, Lean Six Sigma and root-cause support for MSMEs and manufacturers seeking stable processes, lower waste and stronger customer quality.',
+    overview: `Quality improvement works when methods become daily operating discipline. The focus is on understanding variation, identifying the few causes that matter and involving the people who own the process.\n\nPradeep brings more than 25 years of operations and quality experience to diagnostic reviews, improvement projects and capability building. Each assignment starts with available evidence and defines measures before recommending change.`,
     benefits: [
       { title: 'Reduced Defect Rates', desc: 'Systematic root-cause analysis and corrective actions bring defect rates down measurably across production lines.' },
       { title: 'Process Efficiency', desc: 'Streamlined workflows eliminate waste, reduce cycle times, and free up capacity for growth.' },
-      { title: 'Customer Satisfaction', desc: 'Consistent quality output translates directly into higher NPS scores and repeat business.' },
-      { title: 'Cost Savings', desc: 'Quality at the source reduces rework, scrap, and warranty costs — delivering a clear ROI.' },
+      { title: 'Customer Confidence', desc: 'More consistent output and disciplined corrective action can strengthen delivery and complaint performance.' },
+      { title: 'Cost of Poor Quality', desc: 'Quality at source helps reduce rework, scrap, inspection burden and avoidable failure costs.' },
     ],
     approach: [
       { step: '01', title: 'Assessment', desc: 'Comprehensive audit of current quality processes, KPIs, and identified pain points.' },
@@ -25,11 +25,11 @@ export const services = [
     icon: '🌱',
     title: 'ESG Consulting',
     tagline: 'Building responsible, resilient businesses',
-    desc: 'Environmental, Social, and Governance advisory services to help your organisation meet sustainability goals and stakeholder expectations.',
-    overview: `Environmental, Social, and Governance (ESG) performance has become a critical differentiator for businesses of all sizes. Investors, customers, and regulators increasingly evaluate companies on how responsibly they operate — and the bar keeps rising.\n\nOur ESG consulting practice helps organisations navigate this landscape — from baseline assessments and materiality analysis through to full ESG reporting frameworks aligned with GRI, SASB, and TCFD standards.`,
+    desc: 'Operations-led ESG readiness for manufacturers: material risks, resource efficiency, worker safety, governance controls and credible tracking.',
+    overview: `For manufacturers, ESG begins with how the plant is governed: resource use, waste, worker safety, compliance, supplier practice and the reliability of reported data.\n\nSupport is centred on operational baselining, material priorities, ownership and measurable action plans. Specialist legal or assurance requirements can be coordinated with the organisation's qualified advisers where required.`,
     benefits: [
-      { title: 'Investor Confidence', desc: 'Strong ESG scores attract long-term capital and reduce cost of financing.' },
-      { title: 'Regulatory Readiness', desc: 'Stay ahead of mandatory ESG disclosure requirements across geographies.' },
+      { title: 'Decision-quality Data', desc: 'Clear definitions and ownership improve the reliability of operational sustainability information.' },
+      { title: 'Readiness', desc: 'Identify gaps against the reporting or customer requirements applicable to the organisation.' },
       { title: 'Brand Reputation', desc: 'Demonstrate authentic commitment to sustainability to customers and communities.' },
       { title: 'Risk Mitigation', desc: 'Identify and manage climate-related, social, and governance risks proactively.' },
     ],
@@ -46,7 +46,7 @@ export const services = [
     icon: '🤝',
     title: 'CSR Strategy',
     tagline: 'Creating shared value for business and community',
-    desc: 'Develop and implement impactful Corporate Social Responsibility programs that create value for both your business and the community.',
+    desc: 'CSR programme governance, needs assessment, implementation controls and outcome tracking for responsible manufacturing organisations.',
     overview: `Corporate Social Responsibility is no longer a philanthropic add-on — it is a strategic imperative. Well-designed CSR programs build community trust, attract top talent, strengthen customer loyalty, and support regulatory compliance under India's Companies Act Section 135.\n\nWe design CSR strategies that align with your company's core business, maximise social impact, and generate meaningful stories for stakeholders — not just checkbox compliance.`,
     benefits: [
       { title: 'Section 135 Compliance', desc: "Ensure full compliance with India's mandatory CSR spending and reporting requirements." },
@@ -67,7 +67,7 @@ export const services = [
     icon: '📋',
     title: 'QMS Implementation',
     tagline: 'ISO-aligned systems for consistent quality',
-    desc: 'Design and deploy Quality Management Systems aligned with ISO standards to ensure consistent quality and regulatory compliance.',
+    desc: 'Practical ISO 9001-aligned quality systems, internal audits and workforce ownership for consistent manufacturing performance.',
     overview: `A robust Quality Management System is the operating backbone of any quality-focused organisation. Whether implementing ISO 9001 for the first time or upgrading an existing system, getting the QMS right pays dividends in customer satisfaction, audit performance, and operational efficiency.\n\nWith extensive experience leading QMS implementations and audits, we guide organisations from documentation and gap analysis through to successful certification and beyond.`,
     benefits: [
       { title: 'ISO 9001 Certification', desc: 'Achieve and maintain ISO 9001 certification with a system built to last, not just pass an audit.' },
@@ -88,7 +88,7 @@ export const services = [
     icon: '🦺',
     title: 'OHSAS / ISO 45001',
     tagline: 'Safe workplaces, compliant operations',
-    desc: 'Occupational Health and Safety management system implementation to create safer workplaces and reduce workplace incidents.',
+    desc: 'ISO 45001-aligned safety-system support grounded in pulp-mill operations, HIRA documentation and implementation experience.',
     overview: `Workplace safety is both a legal obligation and a moral imperative. ISO 45001:2018 provides the international benchmark for Occupational Health and Safety management systems — and the transition from OHSAS 18001 to ISO 45001 has raised the bar significantly.\n\nWe support organisations through every stage: understanding legal requirements, designing OH&S management systems, training workers and managers, investigating incidents, and achieving certification.`,
     benefits: [
       { title: 'Reduced Incidents', desc: 'Proactive hazard identification and risk controls reduce workplace accidents and near-misses.' },
@@ -107,10 +107,10 @@ export const services = [
   {
     slug: 'pulp-paper-industry',
     icon: '🏭',
-    title: 'Pulp & Paper Industry',
-    tagline: 'Deep sector expertise for paper operations',
-    desc: 'Specialised consulting for the pulp and paper sector, focusing on process optimisation, sustainability, and operational efficiency.',
-    overview: `The pulp and paper industry faces a unique convergence of challenges: rising raw material costs, tightening environmental regulations, evolving customer expectations for sustainable packaging, and global competitive pressure.\n\nWith deep sector-specific knowledge across pulping, bleaching, papermaking, and finishing processes, we deliver consulting that goes beyond generic frameworks — providing insights grounded in the realities of the mill floor.`,
+    title: 'Pulp & Paper Technology',
+    tagline: 'Technical and quality leadership for mill operations',
+    desc: 'Pulp and paper leadership covering pulp-mill operations, quality control, central laboratory, planning, safety and improvement.',
+    overview: `Pulp and paper mills balance fibre quality, chemical and energy use, equipment reliability, safety, environmental performance and customer specifications every day. Improvement requires technical judgement as well as disciplined shift execution.\n\nPradeep's sector foundation includes 23 years with Hindustan Paper Corporation and Hindustan Newsprint across pulp operations, quality control, central laboratory, planning and development, sectional leadership and occupational safety implementation. He is available for consulting assignments and suitable international technical or quality leadership roles.`,
     benefits: [
       { title: 'Process Optimisation', desc: 'Fine-tune pulping, bleaching, and papermaking parameters to improve yield and quality.' },
       { title: 'Sustainability Compliance', desc: 'Navigate FSC, PEFC, and other certification requirements for responsible sourcing.' },
@@ -131,7 +131,7 @@ export const services = [
     title: 'Cost Reduction',
     tagline: 'Systematic savings without compromising quality',
     desc: 'Identify cost-saving opportunities and implement strategies to optimise operational expenses without compromising quality.',
-    overview: `Sustainable cost reduction is not about cutting corners — it is about eliminating waste, improving utilisation, and designing more efficient processes. The best cost reduction programmes improve quality and speed simultaneously.\n\nWe deploy a structured, data-driven approach to identify hidden costs across the value chain and implement changes that stick. Typical engagements deliver 10–20% reduction in targeted cost categories within 6–12 months.`,
+    overview: `Sustainable cost reduction is not about cutting corners — it is about eliminating waste, improving utilisation, and designing more efficient processes. The best cost reduction programmes improve quality and speed simultaneously.\n\nA structured, data-driven approach identifies hidden costs across the value chain, builds an agreed baseline and prioritises opportunities by impact, effort and payback. Results depend on the operating baseline and are tracked against jointly agreed measures.`,
     benefits: [
       { title: 'Improved Margins', desc: 'Direct bottom-line impact through reduced material, labour, and overhead costs.' },
       { title: 'Waste Elimination', desc: 'Lean analysis removes non-value-added activities that consume resources without benefit.' },
@@ -151,7 +151,7 @@ export const services = [
     icon: '🌍',
     title: 'SDG Alignment',
     tagline: 'Linking business strategy to global goals',
-    desc: 'Align your business strategies with UN Sustainable Development Goals to drive positive impact and long-term sustainability.',
+    desc: 'Translate relevant Sustainable Development Goals into practical manufacturing priorities, measures and accountable improvement plans.',
     overview: `The United Nations Sustainable Development Goals provide a universal framework for addressing the world's most pressing challenges — and they represent a significant business opportunity. Companies that align their strategies with the SDGs are better positioned to access new markets, attract capital, and build resilience.\n\nWe help organisations identify the SDGs most relevant to their business, map current activities to those goals, set targets, and communicate progress through credible disclosures.`,
     benefits: [
       { title: 'Strategic Clarity', desc: 'SDG alignment forces strategic prioritisation and links business activity to positive impact.' },
@@ -172,7 +172,7 @@ export const services = [
     icon: '🧭',
     title: 'Corporate Strategy',
     tagline: 'Vision, direction, and sustainable growth',
-    desc: 'Strategic planning and advisory services to help organisations define their vision, set objectives, and achieve sustainable growth.',
+    desc: 'Execution-focused strategy for MSMEs and manufacturers, connecting priorities with owners, operating measures and review discipline.',
     overview: `Every organisation needs a clear strategic direction — a shared understanding of where it is going and how it will get there. Effective corporate strategy translates ambition into actionable plans that align people, resources, and priorities.\n\nWith experience advising organisations across sectors, we facilitate strategy development processes that generate genuine organisational alignment — not just polished slide decks. Strategies are built to be executed, not filed away.`,
     benefits: [
       { title: 'Organisational Alignment', desc: 'A co-created strategy builds genuine buy-in and shared direction across the organisation.' },
@@ -191,15 +191,15 @@ export const services = [
   {
     slug: 'board-advisory',
     icon: '🏛️',
-    title: 'Board Advisory',
-    tagline: 'Governance excellence at the highest level',
-    desc: 'Expert guidance for board-level decisions, governance frameworks, and strategic direction to ensure organisational success.',
-    overview: `Effective boards are the cornerstone of well-governed organisations. Whether you are setting up board processes for the first time, refreshing governance practices, or navigating a specific strategic challenge, board-level advisory provides the expertise and independence that internal management cannot always offer.\n\nDrawing on extensive experience in corporate governance, strategy, and stakeholder management, advisory services are available for board committees, independent director roles, and one-off strategic assignments.`,
+    title: 'Board & Governance Advisory',
+    tagline: 'Operations-informed oversight for manufacturing organisations',
+    desc: 'Independent director and board advisory capability focused on manufacturing risk, quality, safety, sustainability and execution.',
+    overview: `Effective boards benefit from members who can connect oversight with operational reality. Manufacturing businesses in particular need clear visibility of quality, safety, plant risk, capability, sustainability and execution — not only financial outcomes.\n\nPradeep is available for suitable independent director and advisory mandates where his long operating career, quality discipline and MSME perspective complement the existing board. Scope and statutory eligibility are confirmed with the appointing organisation before any engagement.`,
     benefits: [
       { title: 'Governance Rigour', desc: 'Strengthen board processes, committee structures, and decision-making frameworks.' },
       { title: 'Independent Perspective', desc: 'Objective external viewpoint challenges assumptions and improves decision quality.' },
       { title: 'Stakeholder Confidence', desc: 'Strong governance builds confidence with investors, regulators, and lenders.' },
-      { title: 'Crisis Navigation', desc: 'Experienced guidance during periods of strategic change, crisis, or transition.' },
+      { title: 'Execution Visibility', desc: 'Bring operating measures, risk ownership and follow-through into board-level review.' },
     ],
     approach: [
       { step: '01', title: 'Governance Assessment', desc: 'Review current board composition, processes, and practices against best-practice frameworks.' },
@@ -214,7 +214,7 @@ export const services = [
     icon: '🔩',
     title: 'Plastic Moulding',
     tagline: 'Technical excellence in moulding operations',
-    desc: 'Technical consulting for plastic moulding operations, focusing on process optimisation, quality control, and sustainable practices.',
+    desc: 'Quality-system and process-improvement support for plastic moulding MSMEs, focused on defects, controls, waste and capability.',
     overview: `The plastic moulding industry — injection, blow, and compression moulding — faces intense pressure on quality, cycle times, material efficiency, and environmental performance. Technical consulting brings a fresh perspective that combines process engineering knowledge with quality management discipline.\n\nFrom mould qualification and process parameter optimisation to defect analysis and sustainable material transitions, engagements are grounded in practical, production-floor experience.`,
     benefits: [
       { title: 'Cycle Time Reduction', desc: 'Optimise process parameters to reduce cycle times without sacrificing part quality.' },

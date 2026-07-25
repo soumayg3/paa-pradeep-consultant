@@ -9,9 +9,9 @@
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Pradeep Kumar Gupta",
-    "jobTitle": "Business Consultant & Strategic Advisor",
+    "jobTitle": "Pulp and Paper Technologist, Quality Consultant and Independent Director Candidate",
     "url": "https://www.pradeepkumargupta.in",
-    "image": "https://www.pradeepkumargupta.in/image.jpeg",
+    "image": "https://www.pradeepkumargupta.in/pradeep-kumar-gupta-full.webp",
     "sameAs": ["https://www.linkedin.com/in/pkg9673/"],
     "address": {
       "@type": "PostalAddress",
@@ -24,8 +24,9 @@
       "name": "IIT Roorkee"
     },
     "knowsAbout": [
-      "Quality Management", "ESG & Sustainability", "Corporate Governance",
-      "Lean Six Sigma", "ISO Standards", "Operational Excellence", "CSR"
+      "Pulp and Paper Technology", "Total Quality Management", "Quality Management Systems",
+      "Corporate Governance", "Lean Six Sigma", "ISO Standards", "Operational Excellence",
+      "MSME Competitiveness", "Occupational Health and Safety"
     ]
   })}</script>`}
 </svelte:head>

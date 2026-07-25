@@ -5,7 +5,7 @@
         <span class="mark">PKG</span>
         <span class="name">Pradeep Kumar Gupta</span>
       </div>
-      <p>Empowering businesses to achieve excellence through quality, sustainability, and strategic innovation.</p>
+      <p>Board perspective, quality leadership and practical manufacturing improvement grounded in 25+ years of experience.</p>
       <div class="social-links">
         <a href="https://www.linkedin.com/in/pkg9673/" target="_blank" rel="noopener" aria-label="LinkedIn">
           <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
@@ -29,20 +29,20 @@
       <h4>Navigation</h4>
       <ul>
         <li><a href="/">Home</a></li>
-        <li><a href="/work">Work</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/contact">Contact</a></li>
+        <li><a href="/work">Expertise</a></li>
+        <li><a href="/about">Career Profile</a></li>
+        <li><a href="/contact">Opportunities</a></li>
       </ul>
     </div>
 
     <div class="col">
-      <h4>Services</h4>
+      <h4>Core Expertise</h4>
       <ul>
-        <li><a href="/work/quality-improvement">Quality Improvement</a></li>
-        <li><a href="/work/esg-consulting">ESG Consulting</a></li>
-        <li><a href="/work/corporate-strategy">Corporate Strategy</a></li>
-        <li><a href="/work/qms-implementation">QMS Implementation</a></li>
-        <li><a href="/work">View All &rarr;</a></li>
+        <li><a href="/work/board-advisory">Board & Governance</a></li>
+        <li><a href="/work/pulp-paper-industry">Pulp & Paper Technology</a></li>
+        <li><a href="/work/quality-improvement">TQM & Quality Improvement</a></li>
+        <li><a href="/work/qms-implementation">QMS & ISO Systems</a></li>
+        <li><a href="/work">All Capabilities &rarr;</a></li>
       </ul>
     </div>
   </div>

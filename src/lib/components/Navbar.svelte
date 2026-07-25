@@ -15,9 +15,9 @@
 
   const navLinks = [
     { label: 'Home',    href: '/' },
-    { label: 'Work',    href: '/work' },
-    { label: 'About',   href: '/about' },
-    { label: 'Contact', href: '/contact' },
+    { label: 'Expertise', href: '/work' },
+    { label: 'Career Profile', href: '/about' },
+    { label: 'Opportunities', href: '/contact' },
   ];
 
   function isActive(href, pathname) {
@@ -54,7 +54,7 @@
       {/each}
       <li>
         <a href="https://wa.me/917669697397" class="nav-cta" target="_blank" rel="noopener">
-          WhatsApp
+          Discuss a mandate
         </a>
       </li>
     </ul>
@@ -67,15 +67,15 @@ nav {
   top: 0; left: 0; right: 0;
   z-index: 100;
   padding: 1.4rem 0;
-  background: rgba(242,246,251,0.85);
+  background: rgba(242,246,251,0.9);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid transparent;
   transition: background 0.35s, padding 0.35s, box-shadow 0.35s, border-color 0.35s;
 }
 nav.scrolled {
-  background: rgba(242,246,251,0.97);
+  background: rgba(242,246,251,0.98);
   padding: 0.85rem 0;
-  box-shadow: 0 4px 20px rgba(20,97,164,0.08);
+  box-shadow: 0 4px 20px rgba(20,97,164,0.1);
   border-color: var(--border);
 }
 

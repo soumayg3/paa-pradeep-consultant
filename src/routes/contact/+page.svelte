@@ -1,12 +1,12 @@
 <svelte:head>
-  <title>Contact — Pradeep Kumar Gupta</title>
-  <meta name="description" content="Get in touch with Pradeep Kumar Gupta for consulting enquiries on Quality Management, ESG, Corporate Strategy, and more. Free initial consultation." />
+  <title>Contact Pradeep Kumar Gupta | Board, Consulting & International Roles</title>
+  <meta name="description" content="Contact Pradeep Kumar Gupta for independent director mandates, MSME quality consulting, or international pulp and paper and quality leadership opportunities." />
   <link rel="canonical" href="https://www.pradeepkumargupta.in/contact" />
   <meta property="og:title" content="Contact — Pradeep Kumar Gupta" />
-  <meta property="og:description" content="Get in touch for consulting enquiries on Quality Management, ESG, Corporate Strategy, and more. Free initial consultation." />
+  <meta property="og:description" content="Discuss independent director mandates, MSME consulting, and pulp and paper or quality leadership opportunities." />
   <meta property="og:url" content="https://www.pradeepkumargupta.in/contact" />
   <meta name="twitter:title" content="Contact — Pradeep Kumar Gupta" />
-  <meta name="twitter:description" content="Get in touch for consulting enquiries on Quality Management, ESG, Corporate Strategy, and more." />
+  <meta name="twitter:description" content="Discuss board, consulting, and international pulp and paper or quality opportunities." />
 </svelte:head>
 
 <main>
@@ -39,8 +39,8 @@
       <span class="tag">Contact</span>
       <h1 class="section-title">Let's <em>connect</em></h1>
       <p class="hero-sub">
-        Whether you have a specific challenge in mind or simply want to explore the possibilities,
-        the first conversation is always free.
+        For board mandates, MSME improvement assignments, or pulp and paper and quality
+        leadership roles in India or internationally.
       </p>
     </div>
   </section>
@@ -51,16 +51,16 @@
       <!-- Info col -->
       <div class="info-col">
         <span class="tag">Get In Touch</span>
-        <h2 class="section-title">Let's <em>transform</em><br/>your business</h2>
+        <h2 class="section-title">Discuss a <em>mandate</em><br/>or role</h2>
         <div class="divider"></div>
         <p>
-          Reach out for a consultation and discover how expert guidance can drive measurable
-          results. I work with clients across India and internationally, primarily in pulp &
-          paper, plastics, water treatment, and MSME sectors.
+          Please include the organisation, opportunity type, location, expected scope and target
+          timeline. I am based in Ghaziabad, India and open to travel, remote assignments and
+          suitable relocation opportunities.
         </p>
 
         <div class="contact-items">
-          <a href="mailto:shyamaprojects@yahoo.co.in" class="c-item">
+          <a href="mailto:shyamaprojects@yahoo.co.in?subject=Professional%20opportunity%20for%20Pradeep%20Kumar%20Gupta" class="c-item">
             <div class="c-icon">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="20" height="20">
                 <rect x="2" y="4" width="20" height="16" rx="2"/>
@@ -118,8 +118,8 @@
               <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/>
             </svg>
           </div>
-          <h3>Connect on WhatsApp</h3>
-          <p>Get in touch directly for quick consultations and enquiries.</p>
+          <h3>Start with a short message</h3>
+          <p>Mention board, consulting or employment, along with the organisation and location.</p>
           <a href="https://wa.me/917669697397?text=Hi%2C%20I%27m%20interested%20in%20learning%20more%20about%20your%20services" class="btn-wa" target="_blank" rel="noopener">
             <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16" aria-hidden="true">
               <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/>
@@ -130,8 +130,8 @@
 
         <div class="email-card">
           <h3>Send an Email</h3>
-          <p>Prefer email? Expect a response within 24 hours.</p>
-          <a href="mailto:shyamaprojects@yahoo.co.in" class="btn btn-primary" style="width:100%;justify-content:center">
+          <p>Email is best for role descriptions, project briefs and confidential board enquiries.</p>
+          <a href="mailto:shyamaprojects@yahoo.co.in?subject=Professional%20opportunity%20for%20Pradeep%20Kumar%20Gupta" class="btn btn-primary" style="width:100%;justify-content:center">
             Send Email
           </a>
         </div>
@@ -143,17 +143,17 @@
   <section class="expect-section">
     <div class="container">
       <div class="section-head">
-        <span class="tag">Process</span>
-        <h2 class="section-title">The consultation <em>process</em></h2>
+        <span class="tag">Next Steps</span>
+        <h2 class="section-title">A clear, professional <em>conversation</em></h2>
         <div class="divider"></div>
       </div>
 
       <div class="flow">
         {#each [
-          { step: '01', title: 'Initial Conversation', desc: "A free 30-minute call to understand your business challenges and what you're looking to achieve." },
-          { step: '02', title: 'Proposal',             desc: 'A tailored proposal outlining scope, approach, timeline, and investment for your engagement.' },
-          { step: '03', title: 'Kickoff',              desc: 'A structured engagement kickoff ensures full alignment on goals and ways of working.' },
-          { step: '04', title: 'Delivery',             desc: 'Hands-on collaboration to implement agreed initiatives and deliver measurable, lasting outcomes.' },
+          { step: '01', title: 'Context', desc: 'Share the organisation, mandate or role, location, scope and expected timeline.' },
+          { step: '02', title: 'Fit Discussion', desc: 'A confidential conversation to test alignment on the challenge, contribution and working arrangement.' },
+          { step: '03', title: 'Due Diligence', desc: 'Exchange the information needed for a responsible decision, including role expectations and any eligibility requirements.' },
+          { step: '04', title: 'Agreement', desc: 'For consulting, agree scope and measures. For board or employment roles, continue through the organisation’s formal process.' },
         ] as s, i}
           <div class="flow-step">
             <div class="flow-node">

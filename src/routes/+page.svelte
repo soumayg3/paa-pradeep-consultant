@@ -2,32 +2,79 @@
   import Hero from '$lib/components/Hero.svelte';
 
   const featured = [
-    { icon: '⚙️', title: 'Quality Improvement',  href: '/work/quality-improvement',  desc: 'Lean, Six Sigma, and Kaizen-driven programmes that deliver measurable quality gains.' },
-    { icon: '🌱', title: 'ESG Consulting',        href: '/work/esg-consulting',        desc: 'GRI and SASB-aligned frameworks that turn sustainability goals into verifiable results.' },
-    { icon: '🧭', title: 'Corporate Strategy',    href: '/work/corporate-strategy',    desc: 'Vision-to-execution strategy that aligns people, capital, and priorities.' },
-    { icon: '📋', title: 'QMS Implementation',   href: '/work/qms-implementation',   desc: 'ISO 9001 systems built to perform in production — not just pass an audit.' },
+    { icon: '🏛️', title: 'Board & Governance', href: '/work/board-advisory', desc: 'An independent, operations-informed perspective on risk, quality, sustainability and long-term value.' },
+    { icon: '⚙️', title: 'MSME Operational Excellence', href: '/work/quality-improvement', desc: 'TQM, Lean, Six Sigma and root-cause problem solving adapted to the realities of growing manufacturers.' },
+    { icon: '🏭', title: 'Pulp & Paper Technology', href: '/work/pulp-paper-industry', desc: 'Leadership and technical support spanning pulp operations, quality control, laboratory, safety and improvement.' },
+    { icon: '📋', title: 'QMS & ISO Systems', href: '/work/qms-implementation', desc: 'Practical management systems, internal audits, capability building and certification readiness.' },
   ];
 
   const stats = [
-    { num: '25+', label: 'Years Experience',    sub: 'Pulp & Paper, Plastics, MSME' },
-    { num: '50+', label: 'Projects Delivered', sub: 'Across India and internationally' },
-    { num: '11',  label: 'Service Domains',     sub: 'Quality · ESG · Strategy · more' },
+    { num: '25+', label: 'Years of experience', sub: 'Operations, quality and consulting' },
+    { num: '23', label: 'Years in paper companies', sub: 'HPC and Hindustan Newsprint' },
+    { num: '3', label: 'Ways to engage', sub: 'Board · Consulting · Leadership role' },
+  ];
+
+  const roleFit = [
+    { label: 'Board mandates', value: 'Independent Director · Board Adviser', note: 'Manufacturing, MSME, quality, safety and sustainability oversight' },
+    { label: 'Permanent roles', value: 'Technical / Quality / Operational Excellence Leader', note: 'Pulp & paper and process manufacturing; India or international' },
+    { label: 'Consulting', value: 'TQM · Lean Six Sigma · QMS · Mill Improvement', note: 'Diagnostic, implementation and capability-building assignments' },
+  ];
+
+  const evidence = [
+    '23 years with Hindustan Paper Corporation and Hindustan Newsprint',
+    'Progressed from Assistant / Shift Superintendent to Manager and Sectional Head',
+    'Experience across Assam and Kerala mill operations',
+    'Pulp operations, quality control, central laboratory, planning and safety systems',
+    'IIT Roorkee engineering alumnus; Lean Six Sigma Green Belt; IMS internal auditor',
+    'Independent consulting practice since 2019',
   ];
 </script>
 
 <svelte:head>
-  <title>Pradeep Kumar Gupta | Business Consultant & Advisor</title>
-  <meta name="description" content="25+ years of expertise in Quality Management, ESG, Corporate Governance, and Operational Excellence. Serving MSMEs and large corporates across India." />
+  <title>Pradeep Kumar Gupta | Independent Director Candidate, Pulp & Paper & Quality Leader</title>
+  <meta name="description" content="IIT Roorkee pulp and paper technologist with 25+ years in mill operations, quality, TQM, Lean Six Sigma and MSME improvement. Open to board, consulting and international leadership opportunities." />
   <link rel="canonical" href="https://www.pradeepkumargupta.in/" />
-  <meta property="og:title" content="Pradeep Kumar Gupta | Business Consultant & Advisor" />
-  <meta property="og:description" content="25+ years of expertise in Quality Management, ESG, Corporate Governance, and Operational Excellence. Serving MSMEs and large corporates across India." />
+  <meta property="og:title" content="Pradeep Kumar Gupta | Board, Quality & Pulp and Paper Leader" />
+  <meta property="og:description" content="25+ years across pulp and paper operations, quality systems and MSME consulting. Available for board, consulting and international leadership opportunities." />
   <meta property="og:url" content="https://www.pradeepkumargupta.in/" />
-  <meta name="twitter:title" content="Pradeep Kumar Gupta | Business Consultant & Advisor" />
-  <meta name="twitter:description" content="25+ years of expertise in Quality Management, ESG, Corporate Governance, and Operational Excellence." />
+  <meta name="twitter:title" content="Pradeep Kumar Gupta | Board, Quality & Pulp and Paper Leader" />
+  <meta name="twitter:description" content="25+ years across pulp and paper operations, quality systems and MSME consulting." />
 </svelte:head>
 
 <main>
   <Hero />
+
+  <section class="snapshot">
+    <div class="container">
+      <div class="snapshot-head">
+        <div>
+          <span class="tag">Recruiter Snapshot</span>
+          <h2 class="section-title">Fit at a <em>glance</em></h2>
+        </div>
+        <a href="/about#print-profile" class="btn btn-outline">Print / save career profile</a>
+      </div>
+
+      <div class="snapshot-grid">
+        <div class="role-list">
+          {#each roleFit as role}
+            <article class="role-row">
+              <span>{role.label}</span>
+              <div>
+                <h3>{role.value}</h3>
+                <p>{role.note}</p>
+              </div>
+            </article>
+          {/each}
+        </div>
+        <aside class="evidence-card">
+          <h3>Evidence behind the profile</h3>
+          <ul>
+            {#each evidence as item}<li>{item}</li>{/each}
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </section>
 
   <!-- ── Featured Services ── -->
   <section class="featured">
@@ -41,11 +88,11 @@
             <rect x="30" y="5" width="4" height="2" fill="var(--accent)" opacity="0.25"/>
           </svg>
         </div>
-        <span class="tag">What I Do</span>
-        <h2 class="section-title">Expertise that <em>drives results</em></h2>
+        <span class="tag">Opportunity Fit</span>
+        <h2 class="section-title">Experience aligned to <em>three mandates</em></h2>
         <p class="section-sub">
-          From quality systems to corporate governance — comprehensive consulting grounded in
-          25 years of hands-on industry experience.
+          A focused proposition for boards, manufacturing businesses and employers seeking
+          mature technical leadership grounded in real operating experience.
         </p>
       </div>
 
@@ -68,7 +115,7 @@
       </div>
 
       <div class="all-cta">
-        <a href="/work" class="btn btn-outline">View All 11 Services</a>
+        <a href="/work" class="btn btn-outline">Explore capabilities</a>
       </div>
     </div>
   </section>
@@ -135,12 +182,12 @@
 
     <div class="container cta-inner">
       <div class="cta-text">
-        <h2 class="section-title" style="color:#fff">Ready to transform <em>your business?</em></h2>
-        <p>Book a free consultation and discover how expert guidance can deliver measurable results.</p>
+        <h2 class="section-title" style="color:#fff">Have a board, consulting or <em>leadership mandate?</em></h2>
+        <p>Share the challenge, role or geography. The first conversation is confidential and without obligation.</p>
       </div>
       <div class="cta-actions">
-        <a href="/contact" class="btn btn-primary">Get In Touch</a>
-        <a href="/about" class="btn btn-outline-ghost">About Pradeep</a>
+        <a href="/contact" class="btn btn-primary">Start a conversation</a>
+        <a href="/about" class="btn btn-outline-ghost">View career profile</a>
       </div>
     </div>
   </section>
@@ -148,6 +195,29 @@
 
 <style>
 main { overflow: hidden; }
+.snapshot { padding-block: clamp(3.5rem, 7vw, 6rem); background: var(--navy); color: #fff; }
+.snapshot .section-title { color: #fff; }
+.snapshot .section-title em { color: var(--logo-gold-lt); }
+.snapshot .tag { color: var(--logo-gold-lt); border-color: var(--logo-gold-lt); }
+.snapshot-head { display: flex; align-items: end; justify-content: space-between; gap: 2rem; margin-bottom: 2.5rem; }
+.snapshot-head .btn { color: #fff; border-color: rgba(255,255,255,.45); }
+.snapshot-head .btn:hover { border-color: var(--accent); }
+.snapshot-grid { display: grid; grid-template-columns: 1.35fr .9fr; gap: 1.5rem; }
+.role-list { border-top: 1px solid rgba(255,255,255,.16); }
+.role-row { display: grid; grid-template-columns: 9rem 1fr; gap: 1.5rem; padding: 1.25rem 0; border-bottom: 1px solid rgba(255,255,255,.16); }
+.role-row > span { color: var(--logo-gold-lt); text-transform: uppercase; letter-spacing: .12em; font-size: .68rem; }
+.role-row h3 { font-family: var(--font-display); font-size: 1.25rem; font-weight: 400; }
+.role-row p { margin-top: .25rem; color: rgba(255,255,255,.62); font-size: .82rem; }
+.evidence-card { background: #fff; color: var(--text); border-top: 4px solid var(--accent); padding: 1.8rem; }
+.evidence-card h3 { font-family: var(--font-display); font-size: 1.35rem; margin-bottom: 1rem; }
+.evidence-card ul { list-style: none; display: grid; gap: .75rem; }
+.evidence-card li { position: relative; padding-left: 1rem; color: var(--muted); font-size: .82rem; line-height: 1.55; }
+.evidence-card li::before { content: ''; position: absolute; left: 0; top: .65em; width: 5px; height: 5px; background: var(--accent); }
+@media (max-width: 780px) {
+  .snapshot-head { align-items: flex-start; flex-direction: column; }
+  .snapshot-grid { grid-template-columns: 1fr; }
+  .role-row { grid-template-columns: 1fr; gap: .45rem; }
+}
 
 /* ── Featured ── */
 .featured {
